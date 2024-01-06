@@ -20,17 +20,17 @@ export const DonationDetails = () => {
   }
 
 
-  const { title, image, description, type, price } = donation;
+  const { title, description, type, price } = donation;
 
   const btnCol = type === "Health" ? "bg-red-400" : type === "Education" ? "bg-green-400" : type === "Clothing" ? "bg-yellow-400" : type === "Food" ? "bg-blue-700" : "null";
 
   return (
     <div>
       <div className="max-w-5xl m-auto flex justify-between ">
-        <div className={`w-100% h-[200px]`}>
-          <div className="h-[400px] relative overflow-hidden rounded-2xl">
-            <img style={{width: "100%", backgroundColor: ""}} className="" src={bgImg} alt="" />
-            <div style={{backgroundColor: "#808080bd"}} className="absolute bottom-0 p-10  w-full">
+        <div className={`w-100% `}>
+          <div className=" relative overflow-hidden rounded-2xl">
+            <img style={{width: "100%"}} className="" src={bgImg} alt="" />
+            <div style={{backgroundColor: "#808080bd"}} className="absolute bottom-0 p-4 md:p-6 lg:p-10  w-full">
               <button onClick={notify} className={`${btnCol} btn text-gray-100`}>Donate {price}</button>
             </div>
           </div>

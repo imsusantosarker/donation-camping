@@ -16,9 +16,9 @@ export const DonatedCard = ({donated}) => {
 
   return (
     <div>
-        <div className={`${cardBg} m-4 flex rounded-lg`}>
-            <div className="w-48 h-48">
-                <img className="w-100% h-100% bg-cover" src={image} alt="" />
+        <div className={`${cardBg} m-4 md:flex rounded-lg`}>
+            <div className="w-[200px] flex justify-center items-center overflow-hidden">
+                <img className="overflow-hidden rounded-lg" src={image} alt="" />
             </div>
             <div className={`m-4 ${cardTxt}`}>
                 <p className={` py-2 px-4 w-min rounded-md ${typeBg}`}>{type}</p>

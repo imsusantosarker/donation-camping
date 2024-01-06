@@ -1,6 +1,8 @@
 
 export const Statistics = () => {
   return (
-    <div>This is Statistics Component</div>
+    <div>
+      <h2>This Container is in Developed</h2>
+    </div>
   )
 }

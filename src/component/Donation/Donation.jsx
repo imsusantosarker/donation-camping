@@ -7,7 +7,6 @@ import { DonatedCard } from "./DonatedCard/DonatedCard";
 export const Donation = () => {
 
   const [dataDonated, setDataDonated] = useState();
-  const [dataLength, setDataLength] = useState(4)
 
   const donations = useLoaderData();
   useEffect( () => {
@@ -28,16 +27,11 @@ export const Donation = () => {
 
   return (
     <div>
-      <h1>This is Donation Component</h1>
-      <div className="max-w-6xl m-auto grid grid-cols-2">
+      <div className="max-w-6xl m-auto grid grid-cols-1 md:grid-cols-2">
         {
-          dataDonated?.slice(0, dataLength).map(donated => <DonatedCard key={donated.id} donated={donated}></DonatedCard>)
+          dataDonated?.map(donated => <DonatedCard key={donated.id} donated={donated}></DonatedCard>)
         }
       </div>
-      
-      {/* <div className={dataLength === dataDonated.length && 'hidden'}>
-        <button onClick={ () => setDataLength(dataDonated.length)} className="btn btn-primary">Show More</button>
-      </div> */}
     </div>
   )
 }

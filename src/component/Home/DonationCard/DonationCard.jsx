@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 export const DonationCard = ({ donationCard }) => {
 
     const { id, title, image, type } = donationCard;
@@ -14,9 +15,11 @@ export const DonationCard = ({ donationCard }) => {
 
     return (
         <Link to={`/details/${id}`}>
-            <div className={`${cardBg} rounded-lg font-semibold cursor-pointer`}>
-                <img src={image} alt="" />
-                <div className={`m-4 ${cardTxt}`}>
+            <div className={`${cardBg}  rounded-lg font-semibold cursor-pointer`}>
+                <div className="w-100% flex justify-center">
+                     <img className="w-100%"  src={image} alt="" />
+                </div>
+                <div className={`m-4 ${cardTxt} w-100%`}>
                     <p className={` py-2 px-4 w-min rounded-md ${typeBg}`}>{type}</p>
                     <h1 className="py-4">{title}</h1>
                 </div>
