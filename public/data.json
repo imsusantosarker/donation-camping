@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Healthcare Essentials Drive",
+        "type": "Health",
+        "image": "./img/Health.png",
+        "price": "$200",
+        "description": "Support our Healthcare Essentials Drive to provide crucial medical supplies and care for those in need."
+    },
+    {
+        "id": 2,
+        "title": "Education Support Fund",
+        "type": "Education",
+        "image": "./img/Education.png",
+        "price": "$200",
+        "description": "Contribute to our Education Support Fund and empower students with the resources they need for a brighter future."
+    },
+    {
+        "id": 3,
+        "title": "Clothing for Community",
+        "type": "Clothing",
+        "image": "./img/Clothing.png",
+        "price": "$200",
+        "description": "Join us in the Clothing for Community campaign to provide warm clothing to individuals and families facing hardships."
+    },
+    {
+        "id": 4,
+        "title": "Food Aid Program",
+        "type": "Food",
+        "image": "./img/Food.png",
+        "price": "$200",
+        "description": "Support our Food Aid Program and help us ensure that no one goes hungry in our community."
+    },
+    {
+        "id": 5,
+        "title": "Learning Resources for Everyone",
+        "type": "Education",
+        "image": "./img/Education.png",
+        "price": "$200",
+        "description": "Donate towards Wellness Kits for All, promoting physical and mental well-being for everyone in our community."
+    },
+    {
+        "id": 6,
+        "title": "Nutrition for Neighbors",
+        "type": "Food",
+        "image": "./img/Food.png",
+        "price": "$200",
+        "description": "Empower individuals with Learning Resources for Everyone, fostering a culture of continuous education."
+    },
+    {
+        "id": 7,
+        "title": "Warmth & Comfort Drive",
+        "type": "Clothing",
+        "image": "./img/Clothing.png",
+        "price": "$200",
+        "description": "Join the Warmth & Comfort Drive to provide warmth and comfort to those in need during the colder months."
+    },
+    {
+        "id": 8,
+        "title": "Wellness Kits for All",
+        "type": "Health",
+        "image": "./img/Health.png",
+        "price": "$200",
+        "description": "Contribute to Nutrition for Neighbors, ensuring access to nutritious food for our neighbors in challenging times."
+    },
+    {
+        "id": 9,
+        "title": "Empowerment Through Clothing",
+        "type": "Clothing",
+        "image": "./img/Clothing.png",
+        "price": "$200",
+        "description": "Support the Mindful Living Initiative, promoting mental health and mindfulness practices for overall well-being."
+    },
+    {
+        "id": 10,
+        "title": "STEM Education for All",
+        "type": "Education",
+        "image": "./img/Education.png",
+        "price": "$200",
+        "description": "Contribute to STEM Education for All, providing access to science, technology, engineering, and math education for everyone."
+    },
+    {
+        "id": 11,
+        "title": "Mindful Living Initiative",
+        "type": "Health",
+        "image": "./img/Health.png",
+        "price": "$200",
+        "description": "Empower individuals through clothing by supporting our initiative to provide clothing and instill confidence in those facing challenges."
+    },
+    {
+        "id": 12,
+        "title": "Community Kitchen Project",
+        "type": "Food",
+        "image": "./img/Food.png",
+        "price": "$200",
+        "description": "Join the Community Kitchen Project to create a sustainable solution to hunger, providing meals and fostering community bonds."
+    }
+]
